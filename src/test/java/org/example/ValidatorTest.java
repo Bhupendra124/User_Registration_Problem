@@ -13,8 +13,9 @@ public class ValidatorTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
-    {
+    public void show_Message_When_Invalid() throws Exception{
+  Validator validator=new Validator();
+
 
         assertTrue( true );
     }
